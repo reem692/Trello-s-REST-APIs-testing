@@ -1,0 +1,45 @@
+API: GET /api/v1/Authors
+Test Case 1: response code should be 200 OK.
+Expected Result: 200 OK
+Actual Result: 200 OK
+Status: Pass
+Test Case 2: Objects inside response contain, id, idBook, firstName, lastName.
+Expected Result:  response body should contain id, idBook, firstName, lastName.
+Actual Result: response body contains id, idBook, firstName, lastName.
+Status: Pass
+
+API: POST /api/v1/Authors
+Test Case: firstname & lastname should be mandatory.
+Expected Result: response code should be 400 if firstName or lastName are missed in the request body.
+Actual Result: response code is 400.
+Status: Pass
+
+API: GET /api/v1/Authors/authors/books/{idBook}
+Test Case: searching with valid idBook should return relative data in response body.
+Expected Result: searching with a valid idBook should return results which contain idBook.
+Actual Result: returned results contain idBook.
+Status: Pass
+
+API: PUT /api​/v1​/Authors​/{id}
+Test Case: update firstname and lastname of author and his data should be successfully updated in response body.
+Expected Result: author's firstName and lastName should be successfully updated.
+Actual Result:author's firstName and lastName is successfully updated.
+Status: Pass
+
+API: GET/api​/v1​/Authors​/{id}
+Test Case: The author's data should be changed after successfully updated in PUT request.
+Expected Result: The author's data should be changed in response body.
+Actual Result:The author's data is not changed in response body.
+Status: Fail
+
+API: DELETE ​/api​/v1​/Authors​/{id}
+Test Case: author with given id should be successfully deleted
+Expected Result: response code should be 200 Ok
+Actual Result: response code is 200 Ok
+Status: Pass
+
+
+
+
+
+ 

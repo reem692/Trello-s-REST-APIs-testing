@@ -1,0 +1,126 @@
+{
+    "id": "625c8af6e204a82470f14b57",
+    "aaId": "625c8af2436629006f720188",
+    "activityBlocked": false,
+    "avatarHash": "914aa2f6bbc6a4aa0e498dd6bcbd4966",
+    "avatarUrl": "https://trello-members.s3.amazonaws.com/625c8af6e204a82470f14b57/914aa2f6bbc6a4aa0e498dd6bcbd4966",
+    "bio": "",
+    "bioData": null,
+    "confirmed": true,
+    "fullName": "Reem ElMawawy",
+    "idEnterprise": null,
+    "idEnterprisesDeactivated": [],
+    "idMemberReferrer": null,
+    "idPremOrgsAdmin": [
+        "632e2a211848b503b42685a0"
+    ],
+    "initials": "RE",
+    "memberType": "normal",
+    "nonPublic": {},
+    "nonPublicAvailable": true,
+    "products": [
+        10
+    ],
+    "url": "https://trello.com/reemahmed692",
+    "username": "reemahmed692",
+    "status": "disconnected",
+    "aaBlockSyncUntil": null,
+    "aaEmail": null,
+    "aaEnrolledDate": null,
+    "avatarSource": "none",
+    "credentialsRemovedCount": 0,
+    "domainClaimed": null,
+    "email": "reemahmed692@hotmail.com",
+    "goldSunsetFreeTrialIdOrganization": null,
+    "gravatarHash": "9b235b309d0c3c8ca64cbdf1850d3469",
+    "idBoards": [
+        "625dd588bedbfb7870a896c4",
+        "632e2b27911241009a0b231e"
+    ],
+    "idOrganizations": [
+        "625c8b7c4dcf95248767503d",
+        "632e2a211848b503b42685a0"
+    ],
+    "idEnterprisesAdmin": [],
+    "limits": {
+        "boards": {
+            "totalPerMember": {
+                "status": "ok",
+                "disableAt": 4500,
+                "warnAt": 3600
+            }
+        },
+        "orgs": {
+            "totalPerMember": {
+                "status": "ok",
+                "disableAt": 850,
+                "warnAt": 680
+            }
+        }
+    },
+    "loginTypes": [
+        "atlassian"
+    ],
+    "marketingOptIn": {
+        "optedIn": true,
+        "date": "2022-04-17T21:48:26.324Z"
+    },
+    "messagesDismissed": [
+        {
+            "_id": "632e16ce05b93401a40f4ba7",
+            "name": "ad-logged-in-public-board-625dd588bedbfb7870a896c4",
+            "count": 1,
+            "lastDismissed": "2022-09-23T20:27:58.365Z"
+        }
+    ],
+    "oneTimeMessagesDismissed": [
+        "sent-possible-new-signup-event",
+        "625c8b7c4dcf95248767503d-memberHomeScreenPromptFull",
+        "close-menu-of-first-board",
+        "new-lang-de",
+        "free-trial-banner-confetti-632e2a211848b503b42685a0"
+    ],
+    "prefs": {
+        "privacy": {
+            "fullName": "public",
+            "avatar": "public"
+        },
+        "sendSummaries": true,
+        "minutesBetweenSummaries": 60,
+        "minutesBeforeDeadlineToNotify": 1440,
+        "colorBlind": false,
+        "locale": "en-GB"
+    },
+    "trophies": [],
+    "uploadedAvatarHash": null,
+    "uploadedAvatarUrl": null,
+    "premiumFeatures": [
+        "additionalBoardBackgrounds",
+        "additionalStickers",
+        "butler",
+        "customBoardBackgrounds",
+        "customEmoji",
+        "customStickers",
+        "largeAttachments",
+        "plugins",
+        "savedSearches"
+    ],
+    "isAaMastered": true,
+    "ixUpdate": "35",
+    "boards": [
+        {
+            "id": "632e2b27911241009a0b231e",
+            "name": "API",
+            "closed": false,
+            "idOrganization": "632e2a211848b503b42685a0",
+            "pinned": false
+        },
+        {
+            "id": "625dd588bedbfb7870a896c4",
+            "name": "Healthcare Application",
+            "closed": false,
+            "idOrganization": "625c8b7c4dcf95248767503d",
+            "pinned": false
+        }
+    ]
+}
